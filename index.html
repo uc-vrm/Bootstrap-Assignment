@@ -11,291 +11,289 @@
         <link rel="canonical" href="https://www.ucertify.com/utils/?util=icomoon" />
     </head>
     <body>
-        <div class="container">
-            <div class="row border-bottom">
-                <ul class="nav">
-                    <li class="nav-item d-flex align-items-end">
-                        <span class="icomoon-home"></span><a href="" class="nav-link">My Library</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-end">
-                        <span></span><a href="" class="nav-link">Enroll</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-end">
-                        <span></span><a href="" class="nav-link">Inbox</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-end">
-                        <span></span><a href="" class="nav-link">My Profile</a>
-                    </li>
-                    <li class="nav-item border-bottom border-primary d-flex align-items-end">
-                        <span></span><a href="" class="nav-link">Admin</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="row my-3">
-                <div class="col-md-3 px-0">
-                    <div class="input-group">
-                        <input type="text" name="search" id="search" class="form-control border-right-0"/>
-                        <div class="input-group-append">
-                            <button type="button" class="btn border-bottom border-top form-control-clear">x</button>
-                        </div>
-                        <div class="input-group-append">
-                            <button type="button" class="btn dropdown-toggle border border-left-0 form-control-clear"></button>
-                        </div>
-                    </div>
+        <form action="#" id="boot_form" name="boot_form">
+            <div class="container">
+                <div class="row border-bottom">
+                    <ul class="nav">
+                        <li class="nav-item d-flex align-items-end">
+                            <span class="icomoon-home"></span><a href="" class="nav-link">My Library</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-end">
+                            <span></span><a href="" class="nav-link">Enroll</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-end">
+                            <span></span><a href="" class="nav-link">Inbox</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-end">
+                            <span></span><a href="" class="nav-link">My Profile</a>
+                        </li>
+                        <li class="nav-item border-bottom border-primary d-flex align-items-end">
+                            <span></span><a href="" class="nav-link">Admin</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
-                    <div class="btn-group">
-                        <button type="button" class="btn border">Roster</button>
-                        <div class="btn-group">
-                            <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown">Manage</button>
-                            <div class="dropdown-menu">
-                                <a href="" class="dropdown-item">1</a>
-                                <a href="" class="dropdown-item">2</a>
-                                <a href="" class="dropdown-item">3</a>
-                                <a href="" class="dropdown-item">4</a>
+                <div class="row my-3">
+                    <div class="col-md-3 px-0">
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" class="form-control border-right-0"/>
+                            <div class="input-group-append">
+                                <button type="button" id="btn_close" name="btn_close" class="btn border-bottom border-top form-control-clear">x</button>
+                            </div>
+                            <div class="input-group-append">
+                                <button type="button" id="search_drop" name="search_drop" class="btn dropdown-toggle border border-left-0 form-control-clear"></button>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-4">
                         <div class="btn-group">
-                            <button type="button" class="btn border dropdown-toggle" data-toggle="dropdown">Report</button>
-                            <div class="dropdown-menu">
-                                <a href="" class="dropdown-item">1</a>
-                                <a href="" class="dropdown-item">2</a>
-                                <a href="" class="dropdown-item">3</a>
-                                <a href="" class="dropdown-item">4</a>
-                            </div>
-                        </div>
-                        <button type="button" class="btn border">Enroll</button>
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-3 px-0 d-flex justify-content-end">
-                    <button type="button" class="btn btn-outline-primary border-primary mx-2 text-primary text-nowrap">LMS Configuration</button>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-outline-primary border-primary dropdown-toggle text-dark" data-toggle="dropdown">Export</button>
-                        <div class="dropdown-menu">
-                            <a href="" class="dropdown-item">1</a>
-                            <a href="" class="dropdown-item">2</a>
-                            <a href="" class="dropdown-item">3</a>
-                            <a href="" class="dropdown-item">4</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6 d-flex px-0">
-                    <div class="mr-2">
-                        <button type="button" class="btn border bg-light">S</button>
-                    </div>
-                    <div class="mr-2">
-                        <div class="btn-group">
-                            <button type="button" class="btn border">Roster</button>
-                            <button type="button" class="btn border">Lessions</button>
-                            <button type="button" class="btn border">Practice</button>
+                            <button type="button" id="roster_btn" name="roster_btn" class="btn border">Roster</button>
                             <div class="btn-group">
-                                <button class="btn border dropdown-toggle" data-toggle="dropdown">Prepengine</button>
+                                <button type="button" id="manage_btn" name="manage_btn" class="btn border dropdown-toggle" data-toggle="dropdown">Manage</button>
                                 <div class="dropdown-menu">
-                                    <a href="" class="dropdown-item">1</a>
-                                    <a href="" class="dropdown-item">2</a>
-                                    <a href="" class="dropdown-item">3</a>
-                                    <a href="" class="dropdown-item">4</a>
+                                    <a href="#" class="dropdown-item">1</a>
+                                    <a href="#" class="dropdown-item">2</a>
+                                    <a href="#" class="dropdown-item">3</a>
+                                    <a href="#" class="dropdown-item">4</a>
                                 </div>
                             </div>
                             <div class="btn-group">
-                                <button class="btn border dropdown-toggle" data-toggle="dropdown">Analatycs</button>
+                                <button type="button" id="report_btn" name="report_btn" class="btn border dropdown-toggle" data-toggle="dropdown">Report</button>
                                 <div class="dropdown-menu">
-                                    <a href="" class="dropdown-item">1</a>
-                                    <a href="" class="dropdown-item">2</a>
-                                    <a href="" class="dropdown-item">3</a>
-                                    <a href="" class="dropdown-item">4</a>
+                                    <a href="#" class="dropdown-item">1</a>
+                                    <a href="#" class="dropdown-item">2</a>
+                                    <a href="#" class="dropdown-item">3</a>
+                                    <a href="#" class="dropdown-item">4</a>
                                 </div>
+                            </div>
+                            <button type="button" id="enroll_btn" name="enroll_btn" class="btn border">Enroll</button>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3 px-0 d-flex justify-content-end">
+                        <button type="button" id="lms_config" name="lml_config" class="btn btn-outline-primary border-primary mx-2 text-primary text-nowrap">LMS Configuration</button>
+                        <div class="btn-group">
+                            <button type="button" id="export_btn" name="export_btn" class="btn btn-outline-primary border-primary dropdown-toggle text-dark" data-toggle="dropdown">Export</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">1</a>
+                                <a href="#" class="dropdown-item">2</a>
+                                <a href="#" class="dropdown-item">3</a>
+                                <a href="#" class="dropdown-item">4</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 d-flex justify-content-end">
-                    <form>
+                <div class="row">
+                    <div class="col-6 d-flex px-0">
+                        <div class="mr-2">
+                            <button type="button" id="search_bar_btn" name="search_bar_btn" class="btn border bg-light">S</button>
+                        </div>
+                        <div class="mr-2">
+                            <div class="btn-group">
+                                <button type="button" id="roster_btn2" name="roster_btn2" class="btn border">Roster</button>
+                                <button type="button" id="lession_btn" name="lession_btn" class="btn border">Lessions</button>
+                                <button type="button" id="practice_btn" name="practice_btn" class="btn border">Practice</button>
+                                <div class="btn-group">
+                                    <button id="prepeng_btn" name="prepeng_btn" class="btn border dropdown-toggle" data-toggle="dropdown">Prepengine</button>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">1</a>
+                                        <a href="#" class="dropdown-item">2</a>
+                                        <a href="#" class="dropdown-item">3</a>
+                                        <a href="#" class="dropdown-item">4</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" id="analatycs_btn" name="analatycs_btn" class="btn border dropdown-toggle" data-toggle="dropdown">Analatycs</button>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">1</a>
+                                        <a href="#" class="dropdown-item">2</a>
+                                        <a href="#" class="dropdown-item">3</a>
+                                        <a href="#" class="dropdown-item">4</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
                         <div class="custom-control custom-switch">
                             <input type="checkbox" class="custom-control-input" id="switch1" name="switch1"/>
                             <label class="custom-control-label" for="switch1">Test Mode Only</label>
                         </div>
-                    </form>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <span class="d-flex">
+                                            <input type="checkbox" id="chkbox1" class="mr-1" name="chkbox1" value="select_val"/>
+                                            <label for="chkbox1" class="form-control-label">
+                                                <select>
+                                                    <option value="0"></option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                </select>
+                                            </label>
+                                        </span>
+                                    </th>
+                                    <th style="width: 20%;">
+                                        <p>Student Name</p>
+                                        <button id="tag_status_btn" name="tag_status_btn" type="button" class="btn dropdown-toggle p-0"><small>Tag/Status</small></button>
+                                    </th>
+                                    <th>
+                                        <p>Course Name</p>
+                                        <button type="button" id="crn_course_status" name="crn_course_status" class="btn d-block dropdown-toggle p-0"><small>CRN/Course Status</small></button>
+                                    </th>
+                                    <th>
+                                        <p>Instructor</p>
+                                        <button type="button" id="section_btn" name="section_btn" class="btn d-block dropdown-toggle p-0"><small>Setion</small></button>
+                                    </th>
+                                    <th class="pl-4">
+                                        <p>Readiness</p>
+                                        <button type="button" id="readiness_btn" name="readiness_btn" class="btn d-block dropdown-toggle p-0"></button>
+                                    </th>
+                                    <th>
+                                        <p>Start</p>
+                                        <button type="button" id="time_passed_btn" name="time_passed_btn" class="btn d-block dropdown-toggle p-0"><small>Time Passed</small></button>
+                                    </th>
+                                    <th>
+                                        <p>Target</p>
+                                        <button type="button" id="time_needed_btn" name="time_needed_btn" class="btn d-block dropdown-toggle p-0"><small>Time Needed</small></button>
+                                    </th>
+                                    <th>
+                                        <p>Estimeted</p>
+                                        <button type="button" id="time_required_btn" name="time_required_btn" class="btn d-block dropdown-toggle p-0"><small>Time Required</small></button>
+                                    </th>
+                                    <th>
+                                        <p>Last Login</p>
+                                        <button type="button" id="time_passed_btn2" name="time_passed_btn2" class="btn d-block dropdown-toggle p-0"><small>Time Passed</small></button>
+                                    </th>
+                                    <th>
+                                        <p>Actions</p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pt-4">
+                                        <input type="checkbox" id="user1" name="user1" value="1"/>
+                                        <label for="user1">1</label>
+                                    </td>
+                                    <td class="pt-3">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-4">
+                                                <img src="a.jpg" alt="a.jpg" class="rounded-circle"/>
+                                            </div>
+                                            <div class="col-8 text-truncate">Abhishek Kumar Maurya</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">App Training</p>
+                                        <small class="text-muted">App Training</small>
+                                    </td>
+                                    <td>
+                                        <p class="text-nowrap">Dhiroo Verma</p>
+                                        <span class="badge badge-primary">new</span>
+                                    </td>
+                                    <td class="pl-4">
+                                        <div class="row">
+                                            <div class="col circle-progress-block">
+                                                <div id="circleProgress" class="progressbar-js-circle rounded p-3 w-50">
+                                                    <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+                                                        <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                                                        <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="rgb(98,194,205)" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 99.5396;"></path>
+                                                    </svg>
+                                                    <div class="progressbar-text" style="position: absolute; left: 30%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">67</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option value="1">Setting</option>
+                                            <option value="2">edit</option>
+                                            <option value="3">delete</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pt-4">
+                                        <input type="checkbox" id="user2" name="user2" value="2"/>
+                                        <label for="user2">2</label>
+                                    </td>
+                                    <td class="pt-3">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-4">
+                                                <img src="a.jpg" alt="a.jpg" class="rounded-circle"/>
+                                            </div>
+                                            <div class="col-8 text-truncate">Abhishek Panday</div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">App Training</p>
+                                        <small class="text-muted">App Training</small>
+                                    </td>
+                                    <td>
+                                        <p>Swati Kesharwani</p>
+                                        <span class="badge badge-primary">Merged Shambhunath</span>
+                                    </td>
+                                    <td class="pl-4">
+                                        <div class="row">
+                                            <div class="col circle-progress-block">
+                                                <div id="circleProgress" class="progressbar-js-circle rounded p-3 w-50">
+                                                    <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+                                                        <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                                                        <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="rgb(98,194,205)" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 99.5396;"></path>
+                                                    </svg>
+                                                    <div class="progressbar-text" style="position: absolute; left: 30%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">67</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <p class="mb-0">24-Apr-19</p>
+                                        <small class="text-muted">2.1 years</small>
+                                    </td>
+                                    <td>
+                                        <select class="form-control">
+                                            <option value="1">Setting</option>
+                                            <option value="2">edit</option>
+                                            <option value="3">delete</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                    </table>
                 </div>
             </div>
-            <div class="row my-2">
-                <form>
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>
-                                    <span class="d-flex">
-                                        <input type="checkbox" id="chkbox1" class="mr-1" name="chkbox1" value="select_val"/>
-                                        <label for="chkbox1" class="form-control-label">
-                                            <select>
-                                                <option value="0"></option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                            </select>
-                                        </label>
-                                    </span>
-                                </th>
-                                <th style="width: 20%;">
-                                    <p>Student Name</p>
-                                    <button type="button" class="btn dropdown-toggle p-0"><small>Tag/Status</small></button>
-                                </th>
-                                <th>
-                                    <p>Course Name</p>
-                                    <button type="button" class="btn d-block dropdown-toggle p-0"><small>CRN/Course Status</small></button>
-                                </th>
-                                <th>
-                                    <p>Instructor</p>
-                                    <button type="button" class="btn d-block dropdown-toggle p-0"><small>Setion</small></button>
-                                </th>
-                                <th class="pl-4">
-                                    <p>Readiness</p>
-                                    <button type="button" class="btn d-block dropdown-toggle p-0"></button>
-                                </th>
-                                <th>
-                                    <p>Start</p>
-                                    <button type="button" class="btn d-block dropdown-toggle p-0"><small>Time Passed</small></button>
-                                </th>
-                                <th>
-                                    <p>Target</p>
-                                    <button type="button" class="btn d-block dropdown-toggle p-0"><small>Time Needed</small></button>
-                                </th>
-                                <th>
-                                    <p>Estimeted</p>
-                                    <button type="button" class="btn d-block dropdown-toggle p-0"><small>Time Required</small></button>
-                                </th>
-                                <th>
-                                    <p>Last Login</p>
-                                    <button type="button" class="btn d-block dropdown-toggle p-0"><small>Time Passed</small></button>
-                                </th>
-                                <th>
-                                    <p>Actions</p>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="pt-4">
-                                    <input type="checkbox" id="user1" name="user1" value="1"/>
-                                    <label for="user1">1</label>
-                                </td>
-                                <td class="pt-3">
-                                    <div class="row d-flex align-items-center">
-                                        <div class="col-4">
-                                            <img src="a.jpg" alt="a.jpg" class="rounded-circle"/>
-                                        </div>
-                                        <div class="col-8 text-truncate">Abhishek Kumar Maurya</div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <p class="mb-0">App Training</p>
-                                    <small class="text-muted">App Training</small>
-                                </td>
-                                <td>
-                                    <p class="text-nowrap">Dhiroo Verma</p>
-                                    <span class="badge badge-primary">new</span>
-                                </td>
-                                <td class="pl-4">
-                                    <div class="row">
-                                        <div class="col circle-progress-block">
-                                            <div id="circleProgress" class="progressbar-js-circle rounded p-3 w-50">
-                                                <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-                                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
-                                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="rgb(98,194,205)" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 99.5396;"></path>
-                                                </svg>
-                                                <div class="progressbar-text" style="position: absolute; left: 30%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">67</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <select class="form-control">
-                                        <option value="1">Setting</option>
-                                        <option value="2">edit</option>
-                                        <option value="3">delete</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="pt-4">
-                                    <input type="checkbox" id="user2" name="user2" value="2"/>
-                                    <label for="user2">2</label>
-                                </td>
-                                <td class="pt-3">
-                                    <div class="row d-flex align-items-center">
-                                        <div class="col-4">
-                                            <img src="a.jpg" alt="a.jpg" class="rounded-circle"/>
-                                        </div>
-                                        <div class="col-8 text-truncate">Abhishek Panday</div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <p class="mb-0">App Training</p>
-                                    <small class="text-muted">App Training</small>
-                                </td>
-                                <td>
-                                    <p>Swati Kesharwani</p>
-                                    <span class="badge badge-primary">Merged Shambhunath</span>
-                                </td>
-                                <td class="pl-4">
-                                    <div class="row">
-                                        <div class="col circle-progress-block">
-                                            <div id="circleProgress" class="progressbar-js-circle rounded p-3 w-50">
-                                                <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-                                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
-                                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke="rgb(98,194,205)" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 99.5396;"></path>
-                                                </svg>
-                                                <div class="progressbar-text" style="position: absolute; left: 30%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">67</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <p class="mb-0">24-Apr-19</p>
-                                    <small class="text-muted">2.1 years</small>
-                                </td>
-                                <td>
-                                    <select class="form-control">
-                                        <option value="1">Setting</option>
-                                        <option value="2">edit</option>
-                                        <option value="3">delete</option>
-                                    </select>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </form>
-            </div>
-        </div>
+        </form>
     </body>
 </html>
